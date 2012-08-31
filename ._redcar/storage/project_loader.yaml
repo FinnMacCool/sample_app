@@ -7,4 +7,4 @@ open_files:
   - app/views/static_pages/about.html.erb
   - app/views/layouts/application.html.erb
   - app/views/static_pages/contact.html.erb
-  - Gemfile
+  - app/helpers/application_helper.rb

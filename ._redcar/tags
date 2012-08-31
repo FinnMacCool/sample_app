@@ -1,4 +1,4 @@
-1346269433
+1346446517
 About page	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 Application	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
@@ -10,22 +10,14 @@ SampleApp	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/config/applicati
 Static pages	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
-User	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/example_user.rb	class User
+User pages	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "User pages" do
+UsersController	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 about	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def about
 contact	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def contact
-email	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/example_user.rb	  attr_accessor :name, :email
-formatted_email	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/example_user.rb	  def formatted_email
 full_title	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
+full_title	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/support/utilities.rb	def full_title(page_title)
 help	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
-initialize	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/example_user.rb	  def initialize(attributes = {})
-name	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/example_user.rb	  attr_accessor :name, :email
-should have the base title	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the base title" do
-should have the h1 'About Us'	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'About Us'" do
-should have the h1 'Contact'	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Contact'" do
-should have the h1 'Help'	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Help'" do
-should have the h1 'Sample App'	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Sample App'" do
-should have the title 'About Us'	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'About Us'" do
-should have the title 'Contact'	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Contact'" do
-should have the title 'Help'	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Help'" do
-should not have a custom page title	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should not have a custom page title" do
+new	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
+signup page	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
