@@ -1,7 +1,7 @@
 --- 
 bounds: 
-  x: 125
-  y: 125
-  width: 1440
-  height: 767
-tree_width: 205
+  x: -8
+  y: -8
+  width: 1936
+  height: 1066
+tree_width: 255

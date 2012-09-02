@@ -20,6 +20,7 @@ group :assets do
 end
 
 gem 'jquery-rails', '2.0.2'
+gem 'annotate', '2.5.0', group: :development
 
 group :test, :development do
   gem 'rspec-rails', '2.10.0'
