@@ -1,23 +1,50 @@
-1346446517
+1346608254
 About page	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
+AddIndexToUsersEmail	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120902160021_add_index_to_users_email.rb	class AddIndexToUsersEmail 
+AddPasswordDigestToUsers	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120902165724_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
 Application	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
 Contact page	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
+CreateUsers	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120901164802_create_users.rb	class CreateUsers 
 Help page	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 SampleApp	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/config/application.rb	module SampleApp
 Static pages	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+User	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/models/user.rb	class User 
 User pages	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "User pages" do
 UsersController	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
 UsersHelper	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
+VALID_EMAIL_REGEX	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
 about	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def about
+change	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120901164802_create_users.rb	  def change
+change	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120902160021_add_index_to_users_email.rb	  def change
+change	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120902165724_add_password_digest_to_users.rb	  def change
 contact	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def contact
 full_title	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
-full_title	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/support/utilities.rb	def full_title(page_title)
+full_title	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
 help	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
+return value of authenticate method	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
+should be invalid	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	it "should be invalid" do
+should be valid	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	it "should be valid" do
+should have the right links on the layout	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the right links on the layout" do
+should include the base title	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	it "should include the base title" do
+should include the page title	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	it "should include the page title" do
+should not include a bar for the home page	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
 signup page	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+when email address is already taken	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
+when email format is invalid	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email format is invalid" do
+when email format is valid	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email format is valid" do
+when email is not present	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email is not present" do
+when name is not present	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "when name is not present" do
+when name is too long	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "when name is too long" do
+when password confirmation is nil	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password confirmation is nil" do
+when password doesn't match confirmation	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password doesn't match confirmation" do
+when password is not present	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
+with a password that's too short	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "with a password that's too short" do
+with invalid password	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
+with valid password	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "with valid password" do
