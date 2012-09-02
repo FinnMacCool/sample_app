@@ -1,4 +1,4 @@
-1346609192
+1346609253
 About page	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 Application	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 

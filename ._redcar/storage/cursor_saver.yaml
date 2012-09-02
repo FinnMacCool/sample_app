@@ -67,6 +67,6 @@ cursor_positions:
     :cursor_offset: 0
     :timestamp: 2012-09-02 19:55:22.761000 +02:00
   - :path: .git/COMMIT_EDITMSG
-    :cursor_offset: 0
-    :timestamp: 2012-09-02 20:06:32.538000 +02:00
+    :cursor_offset: 1338
+    :timestamp: 2012-09-02 20:07:13.650000 +02:00
 files_to_retain: 0
