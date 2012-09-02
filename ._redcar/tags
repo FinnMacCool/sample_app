@@ -1,4 +1,4 @@
-1346446517
+1346609192
 About page	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 Application	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
@@ -10,9 +10,11 @@ SampleApp	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/config/applicati
 Static pages	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+User	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/models/user.rb	class User 
 User pages	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "User pages" do
 UsersController	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
 UsersHelper	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
+VALID_EMAIL_REGEX	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
 about	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def about
 contact	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def contact
 full_title	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)

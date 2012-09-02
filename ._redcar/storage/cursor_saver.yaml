@@ -60,4 +60,13 @@ cursor_positions:
   - :path: app/views/static_pages/contact.html.erb
     :cursor_offset: 0
     :timestamp: 2012-08-28 21:37:25.924000 +02:00
+  - :path: spec/models/user_spec.rb
+    :cursor_offset: 3124
+    :timestamp: 2012-09-02 19:35:29.832000 +02:00
+  - :path: app/models/user.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-02 19:55:22.761000 +02:00
+  - :path: .git/COMMIT_EDITMSG
+    :cursor_offset: 0
+    :timestamp: 2012-09-02 20:06:32.538000 +02:00
 files_to_retain: 0
