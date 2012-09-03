@@ -1,4 +1,4 @@
-1346609422
+1346622675
 About page	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120902160021_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120902165724_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -23,6 +23,7 @@ change	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120902
 change	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120902160021_add_index_to_users_email.rb	  def change
 change	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120901164802_create_users.rb	  def change
 contact	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def contact
+email address with mixed case	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "email address with mixed case" do
 full_title	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
 full_title	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 help	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
@@ -30,6 +31,7 @@ home	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/stati
 new	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
 return value of authenticate method	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
 should be invalid	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	it "should be invalid" do
+should be saved as all lower-case	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	it "should be saved as all lower-case" do
 should be valid	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	it "should be valid" do
 should have the right links on the layout	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the right links on the layout" do
 should include the base title	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/helpers/application_helper_spec.rb	it "should include the base title" do

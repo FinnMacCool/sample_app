@@ -1,11 +1,4 @@
 --- 
 open_files: 
-  - app/views/static_pages/home.html.erb
-  - spec/requests/static_pages_spec.rb
-  - app/views/layouts/application.html.erb
-  - app/helpers/application_helper.rb
-  - config/routes.rb
-  - spec/support/utilities.rb
-  - app/views/users/new.html.erb
-  - spec/requests/user_pages_spec.rb
-  - Gemfile
+  - spec/models/user_spec.rb
+  - app/models/user.rb
