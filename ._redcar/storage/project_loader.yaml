@@ -1,4 +1,12 @@
 --- 
 open_files: 
   - spec/models/user_spec.rb
-  - app/models/user.rb
+  - app/views/users/show.html.erb
+  - app/assets/stylesheets/custom.css.scss
+  - spec/requests/user_pages_spec.rb
+  - app/views/users/new.html.erb
+  - app/controllers/users_controller.rb
+  - app/views/layouts/application.html.erb
+  - app/views/shared/_error_messages.html.erb
+  - Gemfile
+  - config/environments/production.rb
