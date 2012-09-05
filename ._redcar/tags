@@ -1,4 +1,4 @@
-1346876764
+1346877178
 About page	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120902160021_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120902165724_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
