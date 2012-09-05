@@ -1,4 +1,4 @@
-1346845545
+1346876764
 About page	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120902160021_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/db/migrate/20120902165724_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -86,9 +86,9 @@ when password confirmation is nil	C:/Users/Saint-Paul/Desktop/rails_projects/sam
 when password doesn't match confirmation	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password doesn't match confirmation" do
 when password is not present	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
 with a password that's too short	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "with a password that's too short" do
-with invalid information	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
 with invalid information	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
+with invalid information	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
 with invalid password	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
-with valid information	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "with valid information" do
 with valid information	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
+with valid information	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "with valid information" do
 with valid password	C:/Users/Saint-Paul/Desktop/rails_projects/sample_app/spec/models/user_spec.rb	describe "with valid password" do
