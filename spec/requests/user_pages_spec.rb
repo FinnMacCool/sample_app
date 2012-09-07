@@ -68,9 +68,27 @@ describe "User pages" do
     it { should have_selector('title', text: user.name) }
 
     describe "microposts" do
+      it { should have_content("Microposts") }
       it { should have_content(m1.content) }
       it { should have_content(m2.content) }
       it { should have_content(user.microposts.count) }
+    end
+    
+    describe "pagination" do
+
+      before(:all) { 38.times { FactoryGirl.create(:micropost, user: user, content: "bla") } }
+      after(:all)  { user.microposts.delete_all }
+
+      it { should have_selector('div.pagination') }
+    end
+    
+    describe "delete links" do
+      let(:another_user) { FactoryGirl.create(:user) }
+      before do
+        sign_in another_user
+        visit user_path(user)
+      end
+      it { should_not have_link('delete') }
     end
   end
 

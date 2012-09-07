@@ -23,10 +23,31 @@ describe "Micropost pages" do
     end
 
     describe "with valid information" do
-
       before { fill_in 'micropost_content', with: "Lorem ipsum" }
       it "should create a micropost" do
         expect { click_button "Post" }.to change(Micropost, :count).by(1)
+      end
+    end
+    
+    describe "pluralization" do      
+      it { should have_content('0 microposts') }
+      
+      describe "with one micropost" do
+        before do
+          fill_in 'micropost_content', with: "Lorem ipsum"
+          click_button "Post"
+        end
+        it { should have_content('1 micropost') }
+      end
+      
+      describe "with two microposts" do
+        before do
+          2.times do
+            fill_in 'micropost_content', with: "Lorem ipsum"
+            click_button "Post"
+          end
+        end
+        it { should have_content('2 microposts') }
       end
     end
   end
